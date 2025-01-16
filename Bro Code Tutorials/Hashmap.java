@@ -1,8 +1,9 @@
-/* Date: 1-14-2025
+/* Date: 1-15-2025
    Description: HashMap in Java is a part of the java.util package and is a collection that stores key-value pairs.
                 It uses a hashing mechanism to store data, allowing for efficient insertion,
                 deletion, and access operations. In this program, I will give a step-by-step breakdown:
  */
+import java.util.Map;
 import java.util.HashMap;
 public class Hashmap {
     public static void main(String[] args) {
@@ -57,9 +58,66 @@ System.out.println(value); This prints the current value from the loop to the co
             // A for-each loop is used to iterate over the collection returned by map.values().
             // Each value from the HashMap will be assigned to the 'value' variable in each iteration
 
+            // This map.values() method extracts all the values stored in the HashMap as a collection.
+            // for (Integer value : map.values()) for-each loop is used to iterate over the collection for map.values().
+            // In each iteration, the current value from the collection is assigned to the value variable.
+
             // Print the current value to the console
             System.out.println(value);
-        }
+            // This outputs the value currently assigned to the value variable.
+            // The process repeats until all values in the HashMap have been printed.
 
+            for (Map.Entry<String, Integer> entry : map.entrySet()) {
+                System.out.println(entry.getKey() + ": " + entry.getValue());
+            }
+
+            // 5c. entrySet provides a set of all key-value pairs.
+            // Iterate through the map
+
+            for (Map.Entry<String, Integer> entry : map.entrySet()) {
+                // 'map.entrySet()' returns a set of all key-value pairs (entries) in the map.
+                // Each entry is represented as a Map.Entry<K, V>, where K is the key type and V is the value type.
+                // 'entry' is a variable that holds each key-value pair during each iteration.
+
+                // Access the key of the current entry using 'entry.getKey()'
+                // The 'getKey()' method retrieves the key part of the current entry.
+                String key = entry.getKey();
+
+                // Access the value of the current entry using 'entry.getValue()'
+                // The 'getValue()' method retrieves the value associated with the current key.
+                Integer val = entry.getValue();
+
+                // Print the key and value in the format "key: value"
+                // Concatenates the key and value with ": " for display.
+                System.out.println(key + ": " + val);
+            }
+
+            // 6. Checking the Size or the amount of items in Hashmap.
+            // The size method returns the number of key-value pairs.
+            System.out.println("Size: " + map.size());
+
+            // 7. Clearing the HashMap
+            // Clear method removes all elements from the hashmap.
+            map.clear();
+            System.out.println(map); // will return an empty hashmap {}
+
+            // 8. Checks If the Map Is Empty. The isEmpty method checks if the map has no elements.
+            // Will return a boolean statement T/F
+            System.out.println(map.isEmpty()); // true or false, if there are elements in the Hashmap
+
+            /* Use Cases of HashMaps:
+            Counting Frequency
+                Count the occurrence of words in a text or numbers in an array.
+
+            Caching Data
+                Store frequently accessed data to optimize performance.
+
+            Mapping IDs to Information
+                Map user IDs to their profiles in an application.
+
+            Storing Configuration Settings
+                Store application configuration in a key-value format.
+             */
+        }
     }
 }
