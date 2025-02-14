@@ -1,8 +1,8 @@
-/* Date: 1-21-2025
+package Section_5_Expression_Statements;/* Date: 1-21-2025
    Description:  write a small program that determines if a particular year is a leap year.
  */
 
-public class Leap_Year_Calculator {
+class Leap_Year_Calculator {
     public static void main(String[] args) {
 
         // Conditions to test logic

@@ -1,6 +1,6 @@
 /* Date: 1-26-2025
    Description: The objective of this coding exercise is to write a small program that determines
-                the number of days in a particular month. This is an extension version of /Loop_Year_Calculator.java
+                the number of days in a particular month. This is an extension version of /Section_5_Expression_Statements.Leap_Year_Calculator.java
  */
 
 public class NumberOfDaysInMonth {

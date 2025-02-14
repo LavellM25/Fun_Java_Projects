@@ -1,8 +1,8 @@
-/* Date: 1-21-2025
+package Section_5_Expression_Statements;/* Date: 1-21-2025
    Description: write a small program that can convert kilobytes to megabytes.
  */
 
-public class Main {
+public class MB_to_KB {
     // Method to convert kilobytes to megabytes and print the result
     public static void printMegaBytesAndKiloBytes(int kiloBytes) {
         if (kiloBytes < 0) {
