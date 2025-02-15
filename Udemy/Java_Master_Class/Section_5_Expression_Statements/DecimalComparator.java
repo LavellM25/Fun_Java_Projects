@@ -3,6 +3,8 @@ package Section_5_Expression_Statements;/* Date: 1-25-2025
                 if two numbers are equal, up to three decimal places.
  */
 
+// Coding exercise 6: Decimal Comparator
+
 public class DecimalComparator {
     public static boolean areEqualByThreeDecimalPlaces(double num1, double num2) {
         // Multiply both numbers by 1000 and truncate to integers

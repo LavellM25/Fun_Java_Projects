@@ -2,10 +2,12 @@ package Section_5_Expression_Statements;/* Date: 1-21-2025
    Description:  write a small program that determines if a particular year is a leap year.
  */
 
+// Coding exercise 5: Leap Year Calculator
+
 class Leap_Year_Calculator {
     public static void main(String[] args) {
 
-        // Conditions to test logic
+        // Conditions to Section_5_Expression_Statements.test logic
         System.out.println(isLeapYear(2024));
         System.out.println(isLeapYear(1900));
         System.out.println(isLeapYear(2000));

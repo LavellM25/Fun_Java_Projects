@@ -1,3 +1,5 @@
+package Section_6_Control_Flow;
+
 public class DivisibleByFour {
     public static void main(String[] args) {
         int number = 20; // Test number

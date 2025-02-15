@@ -4,6 +4,8 @@ package Section_5_Expression_Statements;/* Date: 1-25-2025
 
  */
 
+// Coding exercise 8: Teen Number Checker
+
 public class TeenNumberChecker {
     public static void main(String[] args) {
 

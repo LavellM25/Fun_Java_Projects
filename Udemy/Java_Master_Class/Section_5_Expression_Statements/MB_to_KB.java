@@ -2,6 +2,8 @@ package Section_5_Expression_Statements;/* Date: 1-21-2025
    Description: write a small program that can convert kilobytes to megabytes.
  */
 
+// Coding exercise 3: MegaBytes Converter
+
 public class MB_to_KB {
     // Method to convert kilobytes to megabytes and print the result
     public static void printMegaBytesAndKiloBytes(int kiloBytes) {
@@ -21,7 +23,7 @@ public class MB_to_KB {
     }
 
     public static void main(String[] args) {
-        // Call the method with a test value
+        // Call the method with a Section_5_Expression_Statements.test value
         printMegaBytesAndKiloBytes(2500); // Test case
         printMegaBytesAndKiloBytes(-1024); // Test case
         printMegaBytesAndKiloBytes(5000); // Test case

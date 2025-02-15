@@ -2,6 +2,8 @@ package Section_5_Expression_Statements;/* Date: 1-21-2025
    Description: write a small program that can determine if you should wake up based on waken hours.
  */
 
+// Coding exercise 4: Barking Dog
+
 public class Barking_Dog {
     public static void main(String[] args) {
         // Test the method with different inputs

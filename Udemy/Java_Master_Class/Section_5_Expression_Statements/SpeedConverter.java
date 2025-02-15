@@ -2,6 +2,8 @@ package Section_5_Expression_Statements;/* Date: 1-21-2025
    Description: write a small program that can convert km/h to mi/h.
  */
 
+// Coding exercise 2: Speed Converter
+
 public class SpeedConverter {
 
     public static void main(String[] args) {

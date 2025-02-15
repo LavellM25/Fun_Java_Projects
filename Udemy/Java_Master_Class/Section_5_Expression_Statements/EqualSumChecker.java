@@ -1,7 +1,9 @@
-/* Date: 1-25-2025
+package Section_5_Expression_Statements;/* Date: 1-25-2025
    Description: The objective of this coding exercise is to write a small program that checks
                 if the sum of two numbers are equal to a third number.
  */
+
+// Coding exercise 7: Equal Sum Checker
 
 public class EqualSumChecker {
     public static void main(String[] args) {
