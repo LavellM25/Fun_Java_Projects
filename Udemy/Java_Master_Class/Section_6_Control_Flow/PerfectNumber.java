@@ -45,11 +45,12 @@ package Section_6_Control_Flow;
 public class PerfectNumber {
     public static void main(String[] args) {
 
-        System.out.println(isPerfectNumber(-1));
-        System.out.println(isPerfectNumber(5));
-//        System.out.println();
-//        System.out.println();
-//        System.out.println();
+        System.out.println(isPerfectNumber(-1)); // should return false since the number is < 1
+        System.out.println(isPerfectNumber(5)); // should return false since its only proper divisor is 1 and the sum is 1 not 5
+        System.out.println(isPerfectNumber(28)); // should return true since its proper divisors are 1, 2, 4, 7, 14 and the sum is 1 + 2 + 4 + 7 + 14 = 28
+        System.out.println(isPerfectNumber(6)); // should return true since its proper divisors are 1, 2, 3 and the sum is 1 + 2 + 3 = 6
+        // Example number 12: Proper divisors: 1, 2, 3, 4, 6 → 1 + 2 + 3 + 4 + 6 = 16
+        //1+2+3+4+6=16 ❌ (Not a perfect number)
     }
     public static boolean isPerfectNumber (int number) {
         if (number < 1) {
@@ -57,16 +58,30 @@ public class PerfectNumber {
         }
 
         else {
-            for (int i = 1; i * i <= number; i++) {
-//                if (number % i == 0) { // Check if 'i' is a factor
-                    int factor2 = number / i;
-//                System.out.println(factor1 + " x " + factor2 + " = " + number);
-//                }
+            int sum = 0; // To store the sum of proper divisors. Initialize the sum to be zero.
+
+            // Find all divisors up to number/2 (excluding number itself)
+            for (int i = 1; i <= number / 2; i++) {
+                /*
+                We loop from 1 to number/2.
+                We only need to check divisors up to number/2 because a number cannot have a proper
+                divisor greater than half of itself (except for itself, which we exclude).
+                 */
+                if (number % i == 0) {
+                    sum += i;
+                }
+                /*
+                If number % i == 0, then i is a divisor of number.
+                We add i to sum because it is a proper divisor.
+                 */
             }
-            return true;
+
+            return sum == number; // Check if sum of divisors equals the number
+            /*
+            After the loop, we check if sum (sum of divisors) is equal to number.
+            If sum == number, it is a perfect number → return true.
+            Otherwise, return false.
+             */
         }
     }
-
-
-
 }
