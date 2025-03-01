@@ -3,8 +3,8 @@ package Section_6_Control_Flow.Extras;
 public class whileLoopChallenge {
     public static void main(String[] args) {
 
-//        System.out.println(isEvenNumber(6)); // Section_5_Expression_Statements.test method isEvenNumber logic works.
-//        System.out.println(isEvenNumber(7)); // Section_5_Expression_Statements.test method isEvenNumber logic works.
+//        System.out.println(isEvenNumber(6)); // Section_5_Expression_Statements.Extras.test method isEvenNumber logic works.
+//        System.out.println(isEvenNumber(7)); // Section_5_Expression_Statements.Extras.test method isEvenNumber logic works.
 
         int startingValue = 5;
         int endingValue = 20;

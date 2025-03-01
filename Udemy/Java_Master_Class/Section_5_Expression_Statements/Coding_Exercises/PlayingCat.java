@@ -1,4 +1,4 @@
-package Section_5_Expression_Statements;
+package Section_5_Expression_Statements.Coding_Exercises;
 
 // Coding exercise 12: Playing Cat
 

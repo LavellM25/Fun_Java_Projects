@@ -1,4 +1,4 @@
-package Section_5_Expression_Statements;
+package Section_5_Expression_Statements.Coding_Exercises;
 
 /**
  * The goal of this coding exercise is to create a program that can determine the equivalent years and days

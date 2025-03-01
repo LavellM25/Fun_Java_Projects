@@ -5,8 +5,8 @@
 public class ternaryOperator {
     public static void main(String[] args) {
 
-//        int ageOfClient = 14; // this is the Section_5_Expression_Statements.test case that is the dependency that will be tested and change value to
-//        // Section_5_Expression_Statements.test conditions
+//        int ageOfClient = 14; // this is the Section_5_Expression_Statements.Extras.test case that is the dependency that will be tested and change value to
+//        // Section_5_Expression_Statements.Extras.test conditions
 //
 //        // this means that if "?" this case will execute and will print "Over Eighteen" if true (ageOfClient >= 18)
 //        String ageText = (ageOfClient >= 18) ? "Over Eighteen" : "Still a kid";
@@ -17,7 +17,7 @@ public class ternaryOperator {
 //
 //        System.out.println(checkNumber(7)); // Call the checkNumber method
 //
-//        System.out.println(checkEligibility(16)); // call vote method, and Section_5_Expression_Statements.test logic
+//        System.out.println(checkEligibility(16)); // call vote method, and Section_5_Expression_Statements.Extras.test logic
 
         System.out.println(gradeScore(92)); // check logic for grade A (works)
         System.out.println(gradeScore(82)); // check logic for grade B (works)

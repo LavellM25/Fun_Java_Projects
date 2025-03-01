@@ -1,4 +1,4 @@
-package Section_5_Expression_Statements;
+package Section_5_Expression_Statements.Coding_Exercises;
 
 /**
  * The objective of this coding exercise is to create a simple program that can check whether a number is positive,
