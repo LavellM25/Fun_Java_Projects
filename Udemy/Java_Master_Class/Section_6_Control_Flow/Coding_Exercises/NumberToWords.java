@@ -1,8 +1,6 @@
-package Section_6_Control_Flow;
+package Section_6_Control_Flow.Coding_Exercises;
 
 // Coding Exercise 24: Number to Words
-
-import static java.lang.Integer.reverse;
 
 /**
  * The objective of this coding exercise is to write a small program that prints out the number in words.

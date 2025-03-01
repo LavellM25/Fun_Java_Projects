@@ -1,4 +1,4 @@
-package Section_6_Control_Flow;
+package Section_6_Control_Flow.Coding_Exercises;
 
 // Coding exercise 16: Number Palindrome
 

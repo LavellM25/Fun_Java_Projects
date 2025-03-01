@@ -1,4 +1,4 @@
-package Section_6_Control_Flow;
+package Section_6_Control_Flow.Extras;
 
 public class whileLoopChallenge {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Section_6_Control_Flow;
+package Section_6_Control_Flow.Extras;
 
 // This is not related to the Udemy course, this is a logic break down of what a Prime number is.
 

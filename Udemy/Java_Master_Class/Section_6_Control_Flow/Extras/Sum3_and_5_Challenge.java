@@ -1,4 +1,4 @@
-package Section_6_Control_Flow;/* Date: 1-26-2025
+package Section_6_Control_Flow.Extras;/* Date: 1-26-2025
    Description: Loop through #'s 1 to 1000 to get the sum of all numbers divisible by 3 and 5.
                 Learn how for loop statements works.
 
