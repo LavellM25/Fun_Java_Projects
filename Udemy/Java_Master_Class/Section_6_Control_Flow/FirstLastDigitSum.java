@@ -36,7 +36,6 @@ public class FirstLastDigitSum {
         Ex: 257 % 10 = 7 because 257 does not divide easily so 250 / 10 is 25 with no remainder.
         If you add 7, 7 will be the remainder
         */
-//        number = Math.abs(number); // Handle negative numbers
         while (number >= 10) { // In order to retrieve the first digit.
             number /= 10;
 
