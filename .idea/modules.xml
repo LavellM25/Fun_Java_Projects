@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java Examples/HashMaps/Extras/Extras.iml" filepath="$PROJECT_DIR$/Java Examples/HashMaps/Extras/Extras.iml" />
       <module fileurl="file://$PROJECT_DIR$/Fun_Java_Projects.iml" filepath="$PROJECT_DIR$/Fun_Java_Projects.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java Examples/HashMaps/HashMaps.iml" filepath="$PROJECT_DIR$/Java Examples/HashMaps/HashMaps.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java Examples/Java Examples.iml" filepath="$PROJECT_DIR$/Java Examples/Java Examples.iml" />
