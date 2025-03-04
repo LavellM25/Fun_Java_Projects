@@ -1,4 +1,4 @@
-// Date: 2-9-2025
+package Basics;// Date: 2-9-2025
 
 public class TerninaryOperator2 {
     public static void main(String[] args) {

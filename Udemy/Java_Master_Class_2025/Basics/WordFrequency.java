@@ -1,4 +1,4 @@
-/* Date: 1-15-2025
+package Basics;/* Date: 1-15-2025
    Description: Challenge 1: Word Frequency from Hashmap_challenge.java
                 Write a program that counts the frequency of each word in a given sentence.
  */

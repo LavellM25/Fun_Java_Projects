@@ -1,4 +1,4 @@
-// Date: 2-11-2025
+package Basics;// Date: 2-11-2025
 
 // Description: Overview of the Ternary Operator, it's logic and its use cases.
 

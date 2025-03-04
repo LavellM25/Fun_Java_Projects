@@ -1,4 +1,4 @@
-/* Date: 1-6-2025
+package Basics;/* Date: 1-6-2025
    Description: Create a fortune cookie that randomly generates quotes from a data structure (array).
                 Utilize the random module to randomly get data from a specific amount of elements with nextInt().
  */

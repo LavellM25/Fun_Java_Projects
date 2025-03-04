@@ -1,4 +1,4 @@
-/* Date: 1-6-2025
+package Basics;/* Date: 1-6-2025
    Description: Practice of logical operators to solve the following problems:
    1) Write a program to check if a number is between 10 and 20 (inclusive).
    2) Check if a user is either an admin or a moderator to access restricted content.

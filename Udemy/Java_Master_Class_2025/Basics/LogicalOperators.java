@@ -1,4 +1,4 @@
-/* Date: 1-6-2025
+package Basics;/* Date: 1-6-2025
    Description: Working with logical operators in Java like || && !
  */
 
