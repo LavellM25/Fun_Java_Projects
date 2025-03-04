@@ -3,7 +3,7 @@
                 Based on an event, code will then execute based on said outcome.
  */
 
-public class IfElseExample {
+public class if_else_example {
     public static void main(String[] args) {
         int number = 6; // Change this value to test different numbers
 

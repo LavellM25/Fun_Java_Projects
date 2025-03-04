@@ -10,7 +10,7 @@ import java.util.List;
 // Parameter: A Collection<?> containing the elements to be removed from the list.
 // Returns: true if the list changed as a result of the call (at least one element was removed); otherwise, false
 
-public class RemoveAllExample {
+public class remove_all_example {
     public static void main(String[] args) {
         // Create a list of integers
         List<Integer> list = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7));

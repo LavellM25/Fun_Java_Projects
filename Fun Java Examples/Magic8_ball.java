@@ -6,7 +6,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Magic8_Ball {
+public class Magic8_ball {
     public static void main(String[] args) {
 
         // Step 1: Predefine Magic 8-Ball Responses in an Array
