@@ -1,4 +1,4 @@
-package Section_7_Master_OOP;
+package Section_7_Master_OOP.Coding_Exercises;
 
 public class SimpleCalculator {
 //    SimpleCalculator calculator = new SimpleCalculator();
