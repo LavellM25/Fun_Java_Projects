@@ -1,3 +1,5 @@
+package HashMapChallenge;
+
 /* Date: 1-15-2025
    Description: Based on Hashmap.java class this provides how to solve real-world challenges using hashmaps.
  */

@@ -1,3 +1,5 @@
+package Control_Flow;
+
 /* Date: 1-7-2025
    Description: Additional practical example of the use of switch-case statements in Java.
                 Key takeaways are the following:

@@ -1,3 +1,5 @@
+package Reading_Writing_Files;
+
 /* Date: 1-7-2025
    Description: Using BufferedWriter to write over files. Making sure the file closes properly
                 used error handling properly. BufferedWriter use case are for writing large amounts of text to a file.

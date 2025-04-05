@@ -1,3 +1,5 @@
+package Creating_Methods;
+
 /* Date: 1-1-2025
    Description: Methods in Java is similar to how a function in python is, as this is a block of code that is executed
                 whenever you call on the name of the function();

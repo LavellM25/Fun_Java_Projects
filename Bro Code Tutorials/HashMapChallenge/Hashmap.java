@@ -1,8 +1,11 @@
+package HashMapChallenge;
+
 /* Date: 1-15-2025
    Description: HashMap in Java is a part of the java.util package and is a collection that stores key-value pairs.
                 It uses a hashing mechanism to store data, allowing for efficient insertion,
                 deletion, and access operations. In this program, I will give a step-by-step breakdown:
  */
+
 import java.util.Map;
 import java.util.HashMap;
 public class Hashmap {

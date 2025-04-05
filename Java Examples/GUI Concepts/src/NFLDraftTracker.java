@@ -19,7 +19,7 @@ public class NFLDraftTracker {
         JFrame frame = new JFrame("NFL Draft Tracker");
 
         // When the user closes the window, the app should stop
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Close the gui
         frame.setSize(400, 300); // Width x Height
 
         // This panel holds the form inputs (player info)

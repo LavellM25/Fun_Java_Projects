@@ -1,3 +1,5 @@
+package Creating_Methods;
+
 /* Date: 1-1-2025
    Description: How to write and structure methods which act similar to how a function works in Python, a block a code
                 that executes when called on. In java methods must be outside the main{} brackets.

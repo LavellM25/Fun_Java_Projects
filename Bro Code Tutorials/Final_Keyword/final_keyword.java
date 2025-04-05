@@ -1,3 +1,5 @@
+package Final_Keyword;
+
 /* Date: 1-1-2025
    Description: Learning about the final keyword in Java syntax, which means once this set in front of a data type,
                 there can no longer be any updates to the variable assignment. Used to permanently, assign data types

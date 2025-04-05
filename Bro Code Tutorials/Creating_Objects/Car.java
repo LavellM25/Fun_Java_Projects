@@ -1,3 +1,5 @@
+package Creating_Objects;
+
 /* Date: 1-1-2025
    Description: How create objects in Java. A class in Java is a blueprint for creating objects.
                 Classes in java, defines attributes (fields) and behaviors (methods).
@@ -20,11 +22,11 @@ public class Car {
         System.out.println("Beep Beep!");
     }
 
-    // Car myCar = new Car();
+    // Creating_Objects.Car myCar = new Creating_Objects.Car();
     // myCar: Reference variable pointing to the object in memory.
-    // new Car(): Allocates memory and initializes the object.
+    // new Creating_Objects.Car(): Allocates memory and initializes the object.
     public static void main(String[] args) {
-        // Create an object of the Car class
+        // Create an object of the Creating_Objects.Car class
         Car myCar = new Car();
 
         // Access attributes and methods

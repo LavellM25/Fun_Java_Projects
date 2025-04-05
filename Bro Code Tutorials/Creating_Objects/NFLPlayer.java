@@ -1,8 +1,10 @@
+package Creating_Objects;
+
 /* Date: 1-1-2025
    Description: Another real-world examples of how to create multiple objects in Java, adding an NFL player edition.
  */
 
-// Step 1: Define a class named NFLPlayer to represent an NFL player
+// Step 1: Define a class named Creating_Objects.NFLPlayer to represent an NFL player
 public class NFLPlayer {
 
     // Step 2: Declare attributes for player's name and team
