@@ -1,3 +1,5 @@
+package Loops;
+
 /* Date: 1-20-2025
    Description: Write a program that gets integer input from the user, let's call it num,
                 then it prints all the numbers from 1 to num (including) such that are not divisible by 3 or 7

@@ -1,3 +1,4 @@
+package Loops;
 /* Date: 1-1-2025
    Description: Working with for-each loops in Java to iterate through particular elements in an array on the console.
                 The use-case for "for-each-loop" is more readable and more efficient.

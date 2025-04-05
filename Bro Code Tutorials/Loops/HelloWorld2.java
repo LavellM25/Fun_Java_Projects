@@ -1,8 +1,9 @@
+package Loops;
 /* Date: 1-20-2025
    Description: Program that prints "hello" 10 times using a while loop.
 */
 
-public class HelloWorld {
+public class HelloWorld2 {
     public static void main(String[] args) {
         int count = 0; // Initialize a counter variable
 
