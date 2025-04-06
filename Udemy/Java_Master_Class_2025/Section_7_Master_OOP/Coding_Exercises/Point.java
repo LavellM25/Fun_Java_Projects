@@ -128,5 +128,4 @@ public class Point {
         Point point = new Point();
         System.out.println("distance()= " + point.distance()); // Output 0.0
     }
-
 }
