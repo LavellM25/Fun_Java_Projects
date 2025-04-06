@@ -52,9 +52,14 @@ Usage Example:
 
 Demonstrate class usage by initializing a Printer object, adding toner, printing pages, and retrieving the total pages printed.
 
+Learning Objective:
+Apply encapsulation principles to manage toner levels, printing operations, and duplex settings while ensuring controlled and protected interactions within a realistic printer simulation.
+
+
 Example Usage and Output
 Code Example:
-"""java"""
+```java
+
 Printer printer = new Printer(50, true);
 System.out.println(printer.addToner(50)); // Outputs: 100
 System.out.println("initial page count = " + printer.getPagesPrinted()); // Outputs: 0
@@ -62,6 +67,8 @@ int pagesPrinted = printer.printPages(4);
 System.out.println("Pages printed was " + pagesPrinted + " new total print count for printer = " + printer.getPagesPrinted());
 pagesPrinted = printer.printPages(2);
 System.out.println("Pages printed was " + pagesPrinted + " new total print count for printer = " + printer.getPagesPrinted());
+
+
 Expected Output:
 100
 initial page count = 0
