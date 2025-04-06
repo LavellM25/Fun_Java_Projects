@@ -5,7 +5,7 @@
  A getter should also be defined for the direction field called getDirection().
  */
 
-package Section_8_Advanced_OOP.Coding_Exercises;
+package Section_8_Advanced_OOP.Coding_Exercises.Exercise38;
 
 public class Wall {
 

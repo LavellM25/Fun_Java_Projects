@@ -8,7 +8,7 @@
  getSheets() returns the number of sheets on the bed; and getQuilt() returns the value of quilt.
  */
 
-package Section_8_Advanced_OOP.Coding_Exercises;
+package Section_8_Advanced_OOP.Coding_Exercises.Exercise38;
 
 public class Bed {
 

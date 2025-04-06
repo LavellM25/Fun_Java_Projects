@@ -8,7 +8,7 @@
  getStyle() returns the lamp style; isBattery returns the value of battery; and getGlobRating() returns the globRating of the lamp.
  */
 
-package Section_8_Advanced_OOP.Coding_Exercises;
+package Section_8_Advanced_OOP.Coding_Exercises.Exercise38;
 
 public class Lamp {
 

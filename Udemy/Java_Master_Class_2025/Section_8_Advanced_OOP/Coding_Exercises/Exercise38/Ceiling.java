@@ -6,7 +6,7 @@
  getHeight() shall return the value of height and getPaintedColor() should return the value of paintedColor.
  */
 
-package Section_8_Advanced_OOP.Coding_Exercises;
+package Section_8_Advanced_OOP.Coding_Exercises.Exercise38;
 
 public class Ceiling {
 

@@ -40,7 +40,7 @@
  */
 
 
-package Section_8_Advanced_OOP.Coding_Exercises;
+package Section_8_Advanced_OOP.Coding_Exercises.Exercise38;
 
 public class Bedroom {
     public Bedroom(String yourNameHere, Wall wall1, Wall wall2, Wall wall3, Wall wall4, Ceiling ceiling, Bed bed, Lamp lamp) {
