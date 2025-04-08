@@ -67,6 +67,4 @@ public class Printer {
         System.out.printf("Current Job Pages: %d, Printer Total: %d %n",
                 pagesPrinted, printer.getPagesPrinted());
     }
-
-
 }
