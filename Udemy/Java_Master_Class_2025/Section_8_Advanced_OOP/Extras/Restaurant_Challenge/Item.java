@@ -9,7 +9,7 @@ public class Item {
     private String size = "MEDIUM";
 
     // adding a constructor that passes in args for everything except size.
-    public Item(String type, double price) {
+    public Item(String type, double price, String name) {
         this.type = type.toUpperCase(); // convert string to upppercase
         this.price = price;
         this.name = name.toUpperCase(); // convert string to upppercase

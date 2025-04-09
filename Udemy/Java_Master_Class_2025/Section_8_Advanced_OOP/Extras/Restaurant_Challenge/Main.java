@@ -69,8 +69,90 @@ public class Main {
 //        /* Result output:
 //                     AVOCADO:  1.50
 //         */
-        Burger burger = new Burger("regular", 4.00);
-        burger.addToppings("BACON","CHEESE", "MAYO");
-        burger.printItem();
+//        Burger burger = new Burger("regular", 4.00);
+//        burger.addToppings("BACON","CHEESE", "MAYO");
+//        burger.printItem();
+        /* Output:
+        2.50 (Toppings) + 4.00 (Base Price) = 6.50
+         */
+
+        /* Output after methods:  printItemizedList() and Override method of printItem() was created:
+                 BASE BURGER:  4.00
+                       BACON:  1.50
+                      CHEESE:  1.00
+                        MAYO:  0.00
+----        --------------------------
+              REGULAR BURGER:  6.50
+         */
+
+//        MealOrder regularMeal = new MealOrder();
+//        regularMeal.printItemizedList();
+        /* Output:
+                 BASE BURGER:  4.00
+        ------------------------------
+                 MEDIUM COKE:  1.00
+                MEDIUM FRIES:  1.50
+        ------------------------------
+                 TOTAL PRICE:  6.50
+         */
+//        MealOrder regularMeal = new MealOrder();
+//        regularMeal.addBurgerToppings("BACON", "CHEESE", "MAYO");
+//        regularMeal.setDrinkSize("LARGE");
+//        regularMeal.printItemizedList();
+
+        /* Output:
+                 BASE BURGER:  4.00
+                       BACON:  1.50
+                      CHEESE:  1.00
+                        MAYO:  0.00
+           ------------------------------
+                  LARGE COKE:  2.00
+                MEDIUM FRIES:  1.50
+           ------------------------------
+                 TOTAL PRICE: 10.00
+         */
+
+//        MealOrder secondMeal = new MealOrder("turkey", "7-up", "chili");
+//        secondMeal.addBurgerToppings("LETTUCE", "CHEESE", "MAYO");
+//        secondMeal.setDrinkSize("SMALL");
+//        secondMeal.printItemizedList();
+
+        /* Output:
+                 BASE BURGER:  4.00
+                     LETTUCE:  0.00
+                      CHEESE:  1.00
+                        MAYO:  0.00
+            ------------------------------
+               TURKEY BURGER:  5.00
+                  SMALL 7-UP:  0.50
+                MEDIUM CHILI:  1.50
+            ------------------------------
+                 TOTAL PRICE:  7.00
+         */
+
+        System.out.println("=== DELUXE BURGER TEST ===");
+
+        // 1. Create a DeluxeBurger with a set price
+        DeluxeBurger deluxe = new DeluxeBurger("Angus", 8.00);
+
+        // 2. Add 5 toppings: 3 standard, 2 deluxe
+        deluxe.addToppings("BACON", "CHEESE", "LETTUCE", "FRIED EGG", "ONION RINGS");
+
+        // 3. Print itemized list
+        deluxe.printItemizedList();
+        /* Expected output passed:
+        === DELUXE BURGER TEST ===
+         BASE BURGER:  8.00
+               BACON:  0.00
+              CHEESE:  0.00
+             LETTUCE:  0.00
+       ------------------------------
+        ANGUS BURGER:  8.00
+           FRIED EGG:  0.00
+         ONION RINGS:  0.00
+      ------------------------------
+         TOTAL PRICE:  8.00
+
+         */
     }
 }
