@@ -60,13 +60,13 @@ This challenge helped reinforce OOP design principles by simulating a real-world
 
 ### Regular Meal
 ```text
-         BASE BURGER:  4.00
-              BACON:  1.50
-             CHEESE:  1.00
-               MAYO:  0.00
-------------------------------
-       REGULAR BURGER:  6.50
-         LARGE COKE:  2.00
-       MEDIUM FRIES:  1.50
-------------------------------
-         TOTAL PRICE: 10.00
+         BASE BURGER:       4.00
+              BACON:        1.50
+             CHEESE:        1.00
+               MAYO:        0.00
+    ------------------------------
+       REGULAR BURGER:      6.50
+         LARGE COKE:        2.00
+       MEDIUM FRIES:        1.50
+    ------------------------------
+         TOTAL PRICE:      10.00
