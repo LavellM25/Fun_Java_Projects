@@ -3,11 +3,6 @@
 This project demonstrates the concept of **polymorphism** in Java using a creative and relatable theme — **movie genres**. 
 It is built as part of a learning module in advanced object-oriented programming.
 
-## ✅ How to Run
-- Clone this repository: 
-- git clone https://github.com/your-username/movie-genres-polymorphism.git
-
-
 
 ## 📚 Concepts Covered
 
