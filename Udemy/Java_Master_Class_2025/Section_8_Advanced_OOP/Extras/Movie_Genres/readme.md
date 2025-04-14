@@ -3,6 +3,12 @@
 This project demonstrates the concept of **polymorphism** in Java using a creative and relatable theme — **movie genres**. 
 It is built as part of a learning module in advanced object-oriented programming.
 
+## ✅ How to Run
+- Clone this repository: 
+- git clone https://github.com/your-username/movie-genres-polymorphism.git
+
+
+
 ## 📚 Concepts Covered
 
 - **Object-Oriented Programming (OOP)**
@@ -16,9 +22,6 @@ Polymorphism allows objects of different subclasses to be treated as objects of 
 In Java, this is often used to call overridden methods through a reference of the parent class, allowing each subclass to provide its own behavior.
 
 In this project, we use polymorphism to simulate watching different types of movies: **Adventure**, **Comedy**, and **Science Fiction**.
-
-## 🗂️ Project Structure
-
 
 
 ## 🔍 Class Breakdown
