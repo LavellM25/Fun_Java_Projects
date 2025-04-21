@@ -62,9 +62,4 @@ The exercise strengthens your understanding of:
 - `Scanner` class for console input
 - Arrays and manual sorting logic
 
----
 
-## 📁 File
-
-`SortedArray.java`  
-Located in:
