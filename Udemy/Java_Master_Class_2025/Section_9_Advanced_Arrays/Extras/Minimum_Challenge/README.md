@@ -1,6 +1,7 @@
 # Minimum Challenge
 
-This is a simple Java console application that demonstrates how to work with arrays, user input, and basic array processing using loops and the `java.util.Arrays` class.
+This is a simple Java console application that demonstrates how to work with arrays, user input, 
+and basic array processing using loops and the `java.util.Arrays` class.
 
 ## 🧠 Challenge Summary
 
