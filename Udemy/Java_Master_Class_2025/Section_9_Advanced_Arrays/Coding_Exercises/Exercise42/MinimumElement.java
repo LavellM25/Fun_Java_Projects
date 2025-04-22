@@ -1,5 +1,7 @@
 package Section_9_Advanced_Arrays.Coding_Exercises.Exercise42;
 
+import java.util.Scanner;
+
 /** Coding Exercise 42: Implement Min Finder: Reading and Storing Data for Minimum Value Discovery
  * Write a method called readInteger() that has no parameters and returns an int.
  *
@@ -48,4 +50,38 @@ package Section_9_Advanced_Arrays.Coding_Exercises.Exercise42;
  */
 
 public class MinimumElement {
+
+    // This method reads a single integer from the user.
+    // It's used to determine how many elements will be in the array.
+    private static int readInteger() {
+        Scanner scanner = new Scanner(System.in);  // Create a Scanner to get user input
+        return scanner.nextInt();                  // Return the integer the user enters
+    }
+
+    // This method reads 'array' number of integers from the user and stores them in an array.
+    private static int[] readElements(int array) {
+        Scanner scanner = new Scanner(System.in);       // Scanner to get user input
+        int[] elements = new int[array];                 // Create an integer array of size 'array'
+
+        // Loop through and read input for each index of the array
+        for (int i = 0; i < array; i++) {
+            elements[i] = scanner.nextInt();             // Store each entered number into the array
+        }
+
+        return elements;                                 // Return the filled array
+    }
+
+    // This method finds the smallest (minimum) value in the provided array
+    private static int findMin(int[] array) {
+        int min = array[0];  // Start by assuming the first element is the minimum
+
+        // Go through the rest of the array and compare each element to the current minimum
+        for (int i = 1; i < array.length; i++) {
+            if (array[i] < min) {        // If a smaller number is found,
+                min = array[i];          // update the minimum value
+            }
+        }
+
+        return min;  // After checking all elements, return the smallest value
+    }
 }

@@ -58,8 +58,13 @@ You need to implement **three private static methods**:
 ---
 
 ## 🔁 Sample Flow 
+- readInteger() → "How many numbers do you want to enter?"
+- readElements() → "Okay, give me those numbers now."
+- findMin() → "I’ll go through them and find the smallest one."
+
 
 ```java
-int count = readInteger();
-int[] values = readElements(count);
-int min = findMin(values);
+int count = readInteger();            // Step 1: Ask the user how many numbers they want to enter
+int[] values = readElements(count);   // Step 2: Read that many numbers and store them in an array
+int min = findMin(values);            // Step 3: Find and store the smallest value in the array
+
