@@ -7,6 +7,11 @@ It is designed as a beginner-level exercise to practice **expressions**, **metho
 
 ---
 
+## 📈 Future Improvements (Optional)
+- Allow the user to input speed through the console.
+- Extend the program to convert miles per hour back to kilometers per hour.
+- Add unit tests to verify correctness automatically.
+
 ---
 
 ## 🛠️ How It Works
@@ -53,4 +58,3 @@ It is designed as a beginner-level exercise to practice **expressions**, **metho
 System.out.println(toMilesPerHour(1.5));
 // Output: 1
 '''
-
