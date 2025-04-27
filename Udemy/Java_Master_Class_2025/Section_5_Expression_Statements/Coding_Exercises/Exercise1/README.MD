@@ -19,6 +19,13 @@ It is designed as a beginner-friendly exercise to practice writing **expressions
 
 ---
 
+## 📈 Future Improvements (Optional)
+- Extend the program to accept user input from the console.
+- Add unit tests to automatically validate multiple numbers.
+- Enhance output with more descriptive messages (e.g., "The number 5 is positive.").
+
+---
+
 ## 🚀 Sample Output
 
 ### Example:
@@ -38,11 +45,3 @@ public static void checkNumber(int number) {
 checkNumber(5);  // Output: positive
 checkNumber(-3); // Output: negative
 checkNumber(0);  // Output: zero
-'''
-
----
-
-## 📈 Future Improvements (Optional)
-- Extend the program to accept user input from the console.
-- Add unit tests to automatically validate multiple numbers.
-- Enhance output with more descriptive messages (e.g., "The number 5 is positive.").
