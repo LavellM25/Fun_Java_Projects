@@ -1,4 +1,4 @@
-# 📈 Positive, Negative, or Zero Checker
+# Exercise 1: 📈 Positive, Negative, or Zero Checker
 
 ## 📝 Overview
 
