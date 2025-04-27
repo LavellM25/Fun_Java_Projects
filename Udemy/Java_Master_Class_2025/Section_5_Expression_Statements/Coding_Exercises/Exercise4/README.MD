@@ -35,7 +35,7 @@ It is designed as a beginner-friendly exercise to practice **boolean logic**, **
 
 ## 🚀 Sample Output
 
-### Example 1:
+### Example:
 ```java
 public static boolean shouldWakeUp(boolean barking, int hourOfDay){
 //        We have to wake up if the dog is barking before 8 or after 22 hours so in that case return true.
