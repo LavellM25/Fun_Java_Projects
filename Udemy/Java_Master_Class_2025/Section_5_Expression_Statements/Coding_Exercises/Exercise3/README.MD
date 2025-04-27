@@ -47,7 +47,11 @@ public static void printMegaBytesAndKiloBytes(int kiloBytes) {
             System.out.println(kiloBytes + " KB = " + megaBytes + " MB and " + remainingKiloBytes + " KB");
         }
     }
+    
+    public static void main(String[] args) {
+        // Call the method with
+        printMegaBytesAndKiloBytes(2500);
+        // Output: 2500 KB = 2 MB and 452 KB
+    }
 
-printMegaBytesAndKiloBytes(2500);
-// Output: 2500 KB = 2 MB and 452 KB
 
