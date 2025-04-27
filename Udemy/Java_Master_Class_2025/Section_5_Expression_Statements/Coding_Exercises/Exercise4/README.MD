@@ -1,4 +1,4 @@
-# 🐕 Barking Dog: Wake Up Decision
+# Exercise 4: 🐕 Barking Dog: Wake Up Decision
 
 ## 📝 Overview
 
