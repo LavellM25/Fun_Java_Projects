@@ -36,6 +36,9 @@ You'll write a method that **reverses an array without creating a new one**, hel
 
 4. Print the array again (after reversing):
     - Print "Reversed array = " followed by the reversed array elements
+    - Step 2-3 is about swapping elements from outside-in. 
+    - Step 1 and 4 are about printing the array in the required format. 
+    - private static method is required — so your method will look like private static void reverse(int[] array) in Java.
 
 ---
 
