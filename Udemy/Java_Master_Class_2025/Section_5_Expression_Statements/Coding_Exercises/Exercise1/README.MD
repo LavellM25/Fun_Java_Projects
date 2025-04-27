@@ -22,23 +22,19 @@ It is designed as a beginner-friendly exercise to practice writing **expressions
 ## 🚀 Sample Output
 
 ### Example 1:
+
 ```java
 public static void checkNumber(int number) {
-        if (number > 0) {
-            System.out.println("positive");
-        } else if (number < 0)
-            System.out.println("negative");
-        else
-            System.out.println("zero");
-
+    if (number > 0) {
+        System.out.println("positive");
+    } else if (number < 0) {
+        System.out.println("negative");
+    } else {
+        System.out.println("zero");
     }
 }
-'''
 
-
-**Console Output:**
-```
-checkNumber(5); // Output: positive
+// Console Output examples:
+checkNumber(5);  // Output: positive
 checkNumber(-3); // Output: negative
 checkNumber(0);  // Output: zero
-```
