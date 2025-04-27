@@ -1,4 +1,4 @@
-package Section_5_Expression_Statements.Coding_Exercises;/* Date: 1-21-2025
+package Section_5_Expression_Statements.Coding_Exercises.Exercise2;/* Date: 1-21-2025
    Description: write a small program that can convert km/h to mi/h.
  */
 

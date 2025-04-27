@@ -1,4 +1,4 @@
-package Section_5_Expression_Statements.Coding_Exercises;
+package Section_5_Expression_Statements.Coding_Exercises.Exercise9;
 
 /**
  * The objective of this coding exercise is to write a small program that

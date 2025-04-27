@@ -1,4 +1,4 @@
-package Section_5_Expression_Statements.Coding_Exercises;/* Date: 1-25-2025
+package Section_5_Expression_Statements.Coding_Exercises.Exercise8;/* Date: 1-25-2025
    Description: The objective of this coding exercise is to write a small program that checks if a number
                 is a "teen" number, meaning if it's between 13 and 19.
 

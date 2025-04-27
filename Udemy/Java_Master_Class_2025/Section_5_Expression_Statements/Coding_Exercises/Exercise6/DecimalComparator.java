@@ -1,4 +1,4 @@
-package Section_5_Expression_Statements.Coding_Exercises;/* Date: 1-25-2025
+package Section_5_Expression_Statements.Coding_Exercises.Exercise6;/* Date: 1-25-2025
    Description: The objective of this coding exercise is to write a small program that determines:
                 if two numbers are equal, up to three decimal places.
  */
