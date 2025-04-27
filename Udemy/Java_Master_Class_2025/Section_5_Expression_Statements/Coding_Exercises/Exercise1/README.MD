@@ -21,7 +21,7 @@ It is designed as a beginner-friendly exercise to practice writing **expressions
 
 ## 🚀 Sample Output
 
-### Example 1:
+### Example:
 
 ```java
 public static void checkNumber(int number) {
