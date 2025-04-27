@@ -22,7 +22,13 @@ You'll write a method that **reverses an array without creating a new one**, hel
 ## 🔎 Example
 **Input:**
 ```java
-[1, 2, 3, 4, 5]
+//[1, 2, 3, 4, 5]
+
+public class Example {
+    public static void main(String[] args) {
+        int[] numbers = {1, 2, 3, 4, 5}; // <-- Now the array is inside a class and method
+    }
+}
 ```
 
 **Console Output:**
