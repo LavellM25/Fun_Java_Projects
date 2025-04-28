@@ -1,4 +1,4 @@
-# Exercise 5: 🔢 Decimal Comparator: Compare Numbers up to Three Decimal Places
+# Exercise 6: 🔢 Decimal Comparator: Compare Numbers up to Three Decimal Places
 
 ## 📝 Overview
 
