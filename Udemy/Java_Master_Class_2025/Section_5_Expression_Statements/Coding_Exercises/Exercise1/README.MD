@@ -40,8 +40,9 @@ public static void checkNumber(int number) {
         System.out.println("zero");
     }
 }
-
+public static void main(String[] args) {
 // Console Output examples:
 checkNumber(5);  // Output: positive
 checkNumber(-3); // Output: negative
 checkNumber(0);  // Output: zero
+}
