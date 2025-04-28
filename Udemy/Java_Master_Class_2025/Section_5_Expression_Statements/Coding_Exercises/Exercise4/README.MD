@@ -38,49 +38,49 @@ It is designed as a beginner-friendly exercise to practice **boolean logic**, **
 ### Example:
 ```java
 
-public class Example { 
+public class Example {
     public static boolean shouldWakeUp(boolean barking, int hourOfDay){
-    //        We have to wake up if the dog is barking before 8 or after 22 hours so in that case return true.
-    
-            // Validate the range (0 to 23)
-            if (hourOfDay < 0 || hourOfDay > 23) {
-                return false;
-            }
-    
-            // Check if the dog is barking and it's before 8 or after 22
-            if (barking && (hourOfDay < 8 || hourOfDay > 22)) {
-                return true; // Wake up
-            }
-            return false; // All other cases, don't wake up
+        //        We have to wake up if the dog is barking before 8 or after 22 hours so in that case return true.
+
+        // Validate the range (0 to 23)
+        if (hourOfDay < 0 || hourOfDay > 23) {
+            return false;
         }
-        public static void main(String[] args) {
-            // Test the method with different inputs
-            System.out.println(shouldWakeUp(true, 23));
-            
-            // Example 1: 
-            shouldWakeUp(true, 23);
-            // Output: true
-            // (Dog is barking after 22 → Wake up)
-            
-            // Example 2: 
-            shouldWakeUp(false, 23);
-            // Output: false
-            // (Dog is not barking → Don't wake up)
-            
-            // Example 3: 
-            shouldWakeUp(true, 8);
-            // Output: false
-            // (Dog is barking, but not before 8 → Don't wake up)
-            
-            // Example 4: 
-            shouldWakeUp(true, -1);
-            // Output: false
-            // (Invalid hour → Don't wake up)
-            
-            // Example 5: 
-            shouldWakeUp(true, 7);
-            // Output: true
-            // (Dog is barking before 8 → Wake up)
+
+        // Check if the dog is barking and it's before 8 or after 22
+        if (barking && (hourOfDay < 8 || hourOfDay > 22)) {
+            return true; // Wake up
+        }
+        return false; // All other cases, don't wake up
+    }
+    public static void main(String[] args) {
+        // Test the method with different inputs
+
+        // Example 1:
+        System.out.println(shouldWakeUp(true, 23));
+        // Output: true
+        // (Dog is barking after 22 → Wake up)
+
+        // Example 2:
+        System.out.println(shouldWakeUp(false, 23));
+        // Output: false
+        // (Dog is not barking → Don't wake up)
+
+        // Example 3:
+        System.out.println(shouldWakeUp(true, 8));
+        // Output: false
+        // (Dog is barking, but not before 8 → Don't wake up)
+
+        // Example 4:
+        System.out.println(shouldWakeUp(true, -1));
+        // Output: false
+        // (Invalid hour → Don't wake up)
+
+        // Example 5:
+        System.out.println(shouldWakeUp(true, 7));
+        // Output: true
+        // (Dog is barking before 8 → Wake up)
     }
 }
+
 
