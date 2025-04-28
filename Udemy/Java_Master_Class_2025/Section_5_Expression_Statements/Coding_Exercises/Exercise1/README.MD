@@ -31,18 +31,21 @@ It is designed as a beginner-friendly exercise to practice writing **expressions
 ### Example:
 
 ```java
-public static void checkNumber(int number) {
-    if (number > 0) {
-        System.out.println("positive");
-    } else if (number < 0) {
-        System.out.println("negative");
-    } else {
-        System.out.println("zero");
-    }
-}
-public static void main(String[] args) {
-// Console Output examples:
-checkNumber(5);  // Output: positive
-checkNumber(-3); // Output: negative
-checkNumber(0);  // Output: zero
+
+public class Example {
+  public static void checkNumber(int number) {
+      if (number > 0) {
+          System.out.println("positive");
+      } else if (number < 0) {
+          System.out.println("negative");
+      } else {
+          System.out.println("zero");
+      }
+  }
+  public static void main(String[] args) {
+  // Console Output examples:
+  checkNumber(5);  // Output: positive
+  checkNumber(-3); // Output: negative
+  checkNumber(0);  // Output: zero
+  }
 }
