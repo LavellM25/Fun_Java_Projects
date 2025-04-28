@@ -38,7 +38,7 @@ It is designed as a beginner-level exercise to practice **nested conditionals**,
 
 ## 🚀 Sample Output
 
-### Example 1:
+### Example:
 ```java
 
 public class Example { 
