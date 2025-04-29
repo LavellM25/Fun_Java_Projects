@@ -31,20 +31,20 @@ Each exercise introduces a key concept such as **expressions**, **statements**, 
 
 ## 🚀 List of Exercises
 
-| Exercise | Topic | Summary |
-|:--------:|:-----:|:--------|
-| Exercise 1 | Positive/Negative/Zero | Check if a number is positive, negative, or zero. |
-| Exercise 2 | Speed Converter | Convert kilometers per hour to miles per hour. |
-| Exercise 3 | MegaBytes Converter | Convert kilobytes to megabytes and remaining kilobytes. |
-| Exercise 4 | Barking Dog | Decide if you should wake up based on dog barking and time. |
-| Exercise 5 | Leap Year Calculator | Determine if a given year is a leap year. |
-| Exercise 6 | Decimal Comparator | Check if two doubles are equal up to three decimal places. |
-| Exercise 7 | Equal Sum Checker | Compare sums, differences, products, and quotients. |
-| Exercise 8 | Teen Number Checker | Check if any number is between 13 and 19. |
-| Exercise 9 | Area Calculator | Calculate area of a circle or rectangle. |
-| Exercise 10 | Minutes to Years/Days | Convert minutes to years and days. |
-| Exercise 11 | Equality Printer | Print if numbers are all equal, all different, or mixed. |
-| Exercise 12 | Playing Cat | Determine if a cat is playing based on temperature and season. |
+|   Exercise   | Topic | Summary |
+|:------------:|:-----:|:--------|
+| Exercise  1  | Positive/Negative/Zero | Check if a number is positive, negative, or zero. |
+| Exercise  2  | Speed Converter | Convert kilometers per hour to miles per hour. |
+| Exercise  3  | MegaBytes Converter | Convert kilobytes to megabytes and remaining kilobytes. |
+| Exercise  4  | Barking Dog | Decide if you should wake up based on dog barking and time. |
+| Exercise  5  | Leap Year Calculator | Determine if a given year is a leap year. |
+| Exercise  6  | Decimal Comparator | Check if two doubles are equal up to three decimal places. |
+| Exercise  7  | Equal Sum Checker | Compare sums, differences, products, and quotients. |
+| Exercise  8  | Teen Number Checker | Check if any number is between 13 and 19. |
+| Exercise  9  | Area Calculator | Calculate area of a circle or rectangle. |
+| Exercise  10 | Minutes to Years/Days | Convert minutes to years and days. |
+| Exercise  11 | Equality Printer | Print if numbers are all equal, all different, or mixed. |
+| Exercise  12 | Playing Cat | Determine if a cat is playing based on temperature and season. |
 
 ---
 
