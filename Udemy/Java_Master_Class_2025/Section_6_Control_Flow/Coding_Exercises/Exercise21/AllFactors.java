@@ -1,4 +1,4 @@
-package Section_6_Control_Flow.Coding_Exercises;
+package Section_6_Control_Flow.Coding_Exercises.Exercise21;
 
 // Coding Exercise 21: All Factors
 

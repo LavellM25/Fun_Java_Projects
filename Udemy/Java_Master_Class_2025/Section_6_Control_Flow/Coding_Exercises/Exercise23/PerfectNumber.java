@@ -1,4 +1,4 @@
-package Section_6_Control_Flow.Coding_Exercises;
+package Section_6_Control_Flow.Coding_Exercises.Exercise23;
 
 // Coding Exercise 23: Perfect Number
 

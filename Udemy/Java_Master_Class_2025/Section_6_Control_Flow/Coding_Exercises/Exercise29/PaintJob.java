@@ -1,4 +1,4 @@
-package Section_6_Control_Flow.Coding_Exercises;
+package Section_6_Control_Flow.Coding_Exercises.Exercise29;
 
 /**
  * Determine how many paint buckets are required for a wall area,

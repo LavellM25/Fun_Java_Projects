@@ -1,4 +1,4 @@
-package Section_6_Control_Flow.Coding_Exercises;
+package Section_6_Control_Flow.Coding_Exercises.Exercise17;
 
 /**
  * The objective of this coding exercise is to write a small program that

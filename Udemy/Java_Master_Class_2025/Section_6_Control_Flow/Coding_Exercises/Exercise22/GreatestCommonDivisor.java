@@ -1,4 +1,4 @@
-package Section_6_Control_Flow.Coding_Exercises;
+package Section_6_Control_Flow.Coding_Exercises.Exercise22;
 
 // Coding Exercise 22: Greatest Common Divisor
 

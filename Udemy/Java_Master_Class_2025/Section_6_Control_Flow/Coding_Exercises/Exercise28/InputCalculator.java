@@ -1,4 +1,4 @@
-package Section_6_Control_Flow.Coding_Exercises;
+package Section_6_Control_Flow.Coding_Exercises.Exercise28;
 
 // Coding Exercise 28: Interactive Summation And Average Calculator From User Input
 

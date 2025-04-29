@@ -1,4 +1,4 @@
-package Section_6_Control_Flow.Coding_Exercises;
+package Section_6_Control_Flow.Coding_Exercises.Exercise27;
 
 // Coding Exercise 27: Constructing A Diagonal Star Pattern With Loops
 

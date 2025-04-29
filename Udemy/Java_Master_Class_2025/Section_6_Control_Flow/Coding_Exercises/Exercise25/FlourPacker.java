@@ -1,4 +1,4 @@
-package Section_6_Control_Flow.Coding_Exercises;
+package Section_6_Control_Flow.Coding_Exercises.Exercise25;
 
 // Coding Exercise 25: Managing Flour Pack Requirements With Limited Bucket Sizes
 /*
