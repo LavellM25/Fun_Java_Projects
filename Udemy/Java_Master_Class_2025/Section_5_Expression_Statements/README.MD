@@ -58,7 +58,6 @@ Through these exercises, I developed:
 - Each project emphasized **clarity**, **readability**, and **good programming habits**
 skills that are essential for real-world software development.
 
----
 
 
 
