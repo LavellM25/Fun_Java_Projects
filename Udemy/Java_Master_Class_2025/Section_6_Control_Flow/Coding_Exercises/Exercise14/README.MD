@@ -44,6 +44,8 @@ This exercise helps solidify your understanding of **control flow** and **switch
 
 ### Example: 
 
+```java
+
 public class Example {
 
     public static int getDaysInMonth(int month, int year) {
