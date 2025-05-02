@@ -85,7 +85,7 @@ public class Example {
                 }
             }
             else {
-                System.out.println("Invalid Value");// If condition is not met, handle error
+                System.out.println("Invalid Value");  // If condition is not met, handle error
             }
         }
     }
