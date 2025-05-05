@@ -53,12 +53,58 @@ package Section_6_Control_Flow.Coding_Exercises.Exercise28;
  */
 
 import java.util.Scanner;
+import java.io.ByteArrayInputStream;
+
 
 
 public class InputCalculator {
     public static void main(String[] args) {
 
+        // TEST CASE 1: Normal input ending with a letter
+        // Expected output: SUM = 15 AVG = 3
+        System.out.println("Test Case 1:");
+        simulateInput("1\n2\n3\n4\n5\na\n");
+        inputThenPrintSumAndAverage();
+
+        // TEST CASE 2: No valid integers
+        // Expected output: SUM = 0 AVG = 0
+        System.out.println("\nTest Case 2:");
+        simulateInput("hello\n");
+        inputThenPrintSumAndAverage();
+
+        // TEST CASE 3: Single valid input
+        // Expected output: SUM = 10 AVG = 10
+        System.out.println("\nTest Case 3:");
+        simulateInput("10\nstop\n");
+        inputThenPrintSumAndAverage();
+
+        // TEST CASE 4: Negative and positive integers
+        // Expected output: SUM = 5 AVG = 1
+        /** Explanation:
+         * Total sum: -5 + -3 + 4 + 9 = 5
+         *
+         * Count = 4
+         *
+         * Average = 5 / 4 = 1.25, rounded to 1
+         */
+
+        System.out.println("\nTest Case 4:");
+        simulateInput("-5\n-3\n4\n9\nq\n");
+        inputThenPrintSumAndAverage();
+
+        // TEST CASE 5: Large dataset
+        // Output: SUM = 600 AVG = 200
+        System.out.println("\nTest Case 5:");
+        simulateInput("100\n200\n300\nend\n");
+        inputThenPrintSumAndAverage();
+
     }
+
+    // Utility method to simulate user input
+    private static void simulateInput(String data) {
+        System.setIn(new ByteArrayInputStream(data.getBytes()));
+    }
+
     public static void inputThenPrintSumAndAverage() {
         Scanner scanner = new Scanner(System.in); // Scanner Object: Reads user input.
 
