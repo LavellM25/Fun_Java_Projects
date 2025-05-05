@@ -62,6 +62,18 @@ public class Example {
          **    **
          ********
          */
+         
+         printSquare(5);
+         
+         /**
+         Output: 
+         *****
+         ** **
+         * * *
+         ** **
+         *****
+
+         */
     }
 
     public static void printSquareStar(int number) {
