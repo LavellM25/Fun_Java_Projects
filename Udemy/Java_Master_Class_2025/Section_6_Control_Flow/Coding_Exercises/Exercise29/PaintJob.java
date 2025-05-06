@@ -81,8 +81,61 @@ package Section_6_Control_Flow.Coding_Exercises.Exercise29;
 
 public class PaintJob {
     public static void main(String[] args) {
+        // I am going to test three versions of this scenario:
 
+        // Method 1: With Width, Height, Area per Bucket, and Extra Buckets
+
+        /** 🔹 What it does:
+        - Calculates how many buckets Bob needs to **buy**, considering the buckets he already has.
+        - Uses `Math.ceil()` to round up (since you can’t buy a partial bucket).
+
+         ❗ Validation:
+        - If `width`, `height`, or `areaPerBucket` is ≤ 0, or if `extraBuckets` is < 0, return `-1`.
+
+         Explanation:
+         - Wall area = 2.75 × 3.25 = 8.9375
+         - Each bucket covers 2.5 area → `Math.ceil(8.9375 / 2.5) = 4`
+         - Bob has 1 extra bucket → `4 - 1 = 3` buckets to buy
+         */
         System.out.println(getBucketCount(2.75, 3.25, 2.5, 1)); // Expected Output: 3
+
+        // Method 2:
+        /** 🔹 What it does:
+         - Same as Method 1 but assumes Bob has no extra buckets.
+
+         ❗ Validation:
+         - If `width`, `height`, or `areaPerBucket` is ≤ 0, return `-1`.
+
+         💡 Example:
+
+         **Explanation:**
+         - Wall area = 3.4 × 2.1 = 7.14
+         - Each bucket covers 1.5 area → `Math.ceil(7.14 / 1.5) = 5
+         */
+
+        System.out.println(getBucketCount(3.4, 2.1, 1.5)); // ➤ Expected: 5
+
+        // ✅ Method 3:
+        /** 🔹 What it does:
+         - Bob knows only the **total area** and **coverage per bucket**.
+
+         ❗ Validation:
+         - If `area` or `areaPerBucket` is ≤ 0, return `-1`.
+
+         💡 Example:
+
+         **Explanation:**
+         - Wall area = 3.26
+         - Each bucket covers 0.75 area → `Math.ceil(3.26 / 0.75) = 5
+         */
+
+        System.out.println(getBucketCount(.75, 3.26)); // ➤ Expected: 5
+
+        // 🧪 Additional Test Cases
+        System.out.println(getBucketCount(-3.4, 2.1, 1.5, 2)); // ➤ -1 (invalid width)
+        System.out.println(getBucketCount(3.4, 2.1, 1.5, 2));  // ➤ 3
+        System.out.println(getBucketCount(7.25, 4.3, 2.35));   // ➤ 14
+        System.out.println(getBucketCount(3.26, 0.75));        // ➤ 5
     }
 
     public static int getBucketCount (double width, double height, double areaPerBucket, double extraBuckets) {
@@ -111,6 +164,17 @@ public class PaintJob {
 
 //        getBucketCount(2.75, 3.25, 2.5, 1); → should return 3 since the wall area is 8.9375, a single bucket can cover an area of 2.5 and Bob has 1 extra bucket at home.
 
-
     }
+    // ✅ Method 2: With Width, Height, and Area per Bucket (No Extra Buckets)
+    public static int getBucketCount(double width, double height, double areaPerBucket) {
+        return getBucketCount(width, height, areaPerBucket, 0);
+    }
+
+    public static int getBucketCount(double area, double areaPerBucket) {
+        if (area <= 0 || areaPerBucket <= 0) {
+            return -1;
+        }
+        return (int) Math.ceil(area / areaPerBucket);
+    }
+
 }
