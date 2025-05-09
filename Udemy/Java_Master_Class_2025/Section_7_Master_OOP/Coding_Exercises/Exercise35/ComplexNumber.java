@@ -15,7 +15,7 @@
  * Build a class to handle addition, subtraction, and representation of complex numbers, reinforcing method overloading and object manipulation.
  */
 
-package Section_7_Master_OOP.Coding_Exercises;
+package Section_7_Master_OOP.Coding_Exercises.Exercise35;
 
 public class ComplexNumber {
 

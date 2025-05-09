@@ -1,6 +1,6 @@
 // Coding Exercise 31: Person Class and Age Validation
 
-package Section_7_Master_OOP.Coding_Exercises;
+package Section_7_Master_OOP.Coding_Exercises.Exercise31;
 
 public class Person {
     /** Step 1: Define class and fields: Create a class named Person.

@@ -51,7 +51,7 @@ NOTE: All methods should be defined as public NOT public static.
 NOTE: In total, you have to write 5 methods and 2 constructors.
  */
 
-package Section_7_Master_OOP.Coding_Exercises;
+package Section_7_Master_OOP.Coding_Exercises.Exercise32;
 
 public class Wall {
 

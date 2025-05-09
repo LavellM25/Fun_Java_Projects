@@ -53,7 +53,7 @@ System.out.println("total= " + calculator.getTotalCost());
 total= 38.5
 total= 36.45
  */
-package Section_7_Master_OOP.Coding_Exercises;
+package Section_7_Master_OOP.Coding_Exercises.Exercise34;
 
 public class Floor { // Ran tests and all methods passed for this class
 

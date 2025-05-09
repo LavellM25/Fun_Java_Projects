@@ -5,7 +5,7 @@
  *
  */
 
-package Section_7_Master_OOP.Coding_Exercises;
+package Section_7_Master_OOP.Coding_Exercises.Exercise37;
 
 public class Rectangle {
 

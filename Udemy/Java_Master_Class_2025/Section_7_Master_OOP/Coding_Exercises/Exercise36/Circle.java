@@ -31,7 +31,7 @@
  * To calculate volume multiply the area with height.
  */
 
-package Section_7_Master_OOP.Coding_Exercises;
+package Section_7_Master_OOP.Coding_Exercises.Exercise36;
 
 /* Test Code:
 Circle circle = new Circle(3.75);

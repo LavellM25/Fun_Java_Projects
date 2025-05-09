@@ -16,7 +16,7 @@
  *  * Method named getVolume without any parameters, it needs to return the calculated volume.
  *  * To calculate volume multiply the area with height.
  */
-package Section_7_Master_OOP.Coding_Exercises;
+package Section_7_Master_OOP.Coding_Exercises.Exercise36;
 
 public class Cylinder extends Circle {
     // Step 1:

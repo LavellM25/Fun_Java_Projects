@@ -53,7 +53,7 @@ NOTE: Use Math.sqrt to calculate the square root √.
 
 NOTE: Try to avoid duplicated code.
  */
-package Section_7_Master_OOP.Coding_Exercises;
+package Section_7_Master_OOP.Coding_Exercises.Exercise33;
 
 public class Point {
 

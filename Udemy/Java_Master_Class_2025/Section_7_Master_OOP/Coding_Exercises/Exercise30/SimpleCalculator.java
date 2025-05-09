@@ -56,7 +56,7 @@ NOTE: In total, you have to write 8 methods.
 
  */
 
-package Section_7_Master_OOP.Coding_Exercises;
+package Section_7_Master_OOP.Coding_Exercises.Exercise30;
 
 public class SimpleCalculator {
 
