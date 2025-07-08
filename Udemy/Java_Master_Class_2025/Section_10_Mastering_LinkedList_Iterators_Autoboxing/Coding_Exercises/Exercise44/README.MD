@@ -51,7 +51,3 @@ It simulates core functionality you might find in a basic mobile phone app for s
 2. Make sure all three files (`Contact.java`, `MobilePhone.java`, and `Main.java`) are in the same package or directory.
 3. Compile and run `Main.java`.
 
-### 📦 Command Line Example:
-```bash
-javac Contact.java MobilePhone.java Main.java
-java Main
