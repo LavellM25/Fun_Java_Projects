@@ -23,6 +23,10 @@ public class lesson44 {
         // Adding more elements using a separate method
         addMoreElements(placesToVisit);
         System.out.println(placesToVisit);   // Prints updated list with all additions
+
+        // Getting more elements using a separate method
+        gettingmoreElements(placesToVisit);
+
     }
 
     /**
@@ -80,8 +84,28 @@ public class lesson44 {
 */
     // another method for getting elements
 
-    private static void gettingElements(LinkedList<String> list) {
-        
+    private static void gettingmoreElements(LinkedList<String> list) {
+
+        System.out.println("Retrieved elements: " + list.get(4)); // Retrieve the 4th element in linked list
+
+        System.out.println("First Element: " + list.getFirst()); // get first element
+
+        System.out.println("Last Element: " + list.getLast()); // get last element
+
+        System.out.println("Size of list: " + list.size()); // how big is list or how many elements?
+
+        System.out.println("India is at the position: " + list.indexOf("India")); // get the position of a specific element
+
+        System.out.println("Germany is at the position: " + list.indexOf("Germany")); // get the position of a specific element
+
+        System.out.println("Element from peek() = " + list.peek()); // get the first element
+
+        System.out.println("Element from peekFirst() = " + list.peekFirst()); // also get the first element
+
+        System.out.println("Element from peekLast() = " + list.peekLast()); // get the last element
+
+
+
     }
 }
 
