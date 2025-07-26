@@ -104,8 +104,6 @@ public class lesson44 {
 
         System.out.println("Element from peekLast() = " + list.peekLast()); // get the last element
 
-
-
     }
 }
 
