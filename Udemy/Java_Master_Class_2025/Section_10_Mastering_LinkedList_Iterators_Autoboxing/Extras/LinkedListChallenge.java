@@ -6,6 +6,7 @@ package Section_10_Mastering_LinkedList_Iterators_Autoboxing.Extras;
 // This file builds the sorted list part and handles duplicate checking.
 
 import java.util.LinkedList;
+import java.util.Scanner;
 
 // A record is a compact way to define a class with final fields, constructor, and toString().
 record Place(String name, int distance) {
@@ -36,6 +37,37 @@ public class LinkedListChallenge {
 
         // Print the list
         System.out.println(placesToVisit);
+
+        var iterator = placesToVisit.iterator();
+        Scanner scanner = new Scanner(System.in);
+        boolean quitLoop = false;
+        boolean forward = true;
+
+        printMenu();
+
+        while (!quitLoop) {
+            System.out.println("Enter the name of the place: ");
+            String menuItem = scanner.nextLine();
+
+            switch (menuItem) {
+                case "Forward":
+                    System.out.println("User wants to go Forward");
+                    break;
+                case "Backward":
+                    System.out.println("User wants to go Backward");
+                    break;
+
+                case "List":
+                    System.out.println("User wants a list of the places");
+                    break;
+                case "Menu":
+                    System.out.println("User wants a menu of the places");
+                    break;
+                default:
+                    quitLoop = true;
+                    break;
+            }
+        }
     }
 
     /**
@@ -71,5 +103,16 @@ public class LinkedListChallenge {
 
         // If no closer match found, add to the end
         list.add(place);
+    }
+
+    private static void printMenu() {
+        System.out.println("""
+                Available actions (please select one of the following options):
+                Forward
+                Backward
+                List Places
+                Menu
+                Quit
+                """);
     }
 }
